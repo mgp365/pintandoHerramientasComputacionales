@@ -58,8 +58,22 @@ def rectangle(start, end):
 
 
 def triangle(start, end):
-    """Draw triangle from start to end."""
-    pass  # TODO
+    """Draw equilateral triangle with side based on distance start->end."""
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    side = abs(end.x - start.x)  
+
+    setheading(0)
+    forward(side)
+    left(120)
+    forward(side)
+    left(120)
+    forward(side)
+
+    end_fill()
 
 
 def tap(x, y):
