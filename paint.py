@@ -79,8 +79,10 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+#Cesar Tadeo Bernal Sauceda
 onkey(lambda: color('yellow'), 'Y')
 onkey(lambda: color('purple'), 'P')
+
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
