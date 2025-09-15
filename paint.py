@@ -40,8 +40,9 @@ def circle(start, end):
     """Draw circle from start to end."""
     pass  # TODO
 
-
+# Regina Aguilar García - A00841923
 def rectangle(start, end):
+    """Draw rectangle from start to end."""
     up()
     goto(start.x, start.y)
     down()
@@ -56,7 +57,7 @@ def rectangle(start, end):
     end_fill()
     pass  # TODO
 
-
+#Gianmarco Barboza Alavardo - A00843087
 def triangle(start, end):
     """Draw equilateral triangle with side based on distance start->end."""
     up()
@@ -104,8 +105,10 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+#Cesar Tadeo Bernal Sauceda
 onkey(lambda: color('yellow'), 'Y')
 onkey(lambda: color('purple'), 'P')
+
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
