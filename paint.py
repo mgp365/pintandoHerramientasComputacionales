@@ -57,7 +57,7 @@ def rectangle(start, end):
     end_fill()
     pass  # TODO
 
-
+#Gianmarco Barboza Alavardo - A00843087
 def triangle(start, end):
     """Draw equilateral triangle with side based on distance start->end."""
     up()
