@@ -36,9 +36,14 @@ def square(start, end):
     end_fill()
 
 
-def circle(start, end):
+# Mariana Guerrero Pérez - A00840918
+def draw_circle(start, end):
     """Draw circle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    circle(end.x)
+
 
 # Regina Aguilar García - A00841923
 def rectangle(start, end):
