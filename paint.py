@@ -40,8 +40,9 @@ def circle(start, end):
     """Draw circle from start to end."""
     pass  # TODO
 
-
+# Regina Aguilar García
 def rectangle(start, end):
+    """Draw rectangle from start to end."""
     up()
     goto(start.x, start.y)
     down()
