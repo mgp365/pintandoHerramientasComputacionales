@@ -6,7 +6,7 @@ Exercises
 2. Complete circle.
 3. Complete rectangle.
 4. Complete triangle.
-5. Add width parameter.
+5. Add width paramete
 """
 
 from turtle import *
@@ -42,13 +42,38 @@ def circle(start, end):
 
 
 def rectangle(start, end):
-    """Draw rectangle from start to end."""
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    for count in range(2):
+        forward(end.x - start.x)
+        left(90)
+        forward((end.x - start.x) / 2)
+        left(90)
+    
+    end_fill()
     pass  # TODO
 
 
 def triangle(start, end):
-    """Draw triangle from start to end."""
-    pass  # TODO
+    """Draw equilateral triangle with side based on distance start->end."""
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+
+    side = abs(end.x - start.x)  
+
+    setheading(0)
+    forward(side)
+    left(120)
+    forward(side)
+    left(120)
+    forward(side)
+
+    end_fill()
 
 
 def tap(x, y):
