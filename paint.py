@@ -40,7 +40,7 @@ def circle(start, end):
     """Draw circle from start to end."""
     pass  # TODO
 
-# Regina Aguilar García
+# Regina Aguilar García - A00841923
 def rectangle(start, end):
     """Draw rectangle from start to end."""
     up()
